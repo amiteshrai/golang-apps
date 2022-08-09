@@ -1,0 +1,35 @@
+{
+    "go.lintOnSave": "file",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    // "go.toolsGopath": "/Users/fintech/Workspaces/Personal/Code/learning-go",
+    // "go.toolsGopath": "~/.vscode/godev",
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[go.mod]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false
+        }
+    },
+    "go.docsTool": "gogetdoc",
+    "gopls": {
+        "ui.semanticTokens": true,
+        "formatting.gofumpt": true,
+        "ui.diagnostic.staticcheck": true
+    },
+    "files.autoSave": "onFocusChange",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.cursorBlinking": true,
+
+    "editor.multiCursorModifier": "ctrlCmd",
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    }
+}
